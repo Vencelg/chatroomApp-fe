@@ -3,7 +3,7 @@ import App from './App.svelte'
 import Echo from 'laravel-echo';
 import Pusher from 'pusher-js';
 
-window.Pusher = Pusher;
+/* window.Pusher = Pusher;
 
 // @ts-ignore
   window.Echo = new Echo({
@@ -13,7 +13,7 @@ window.Pusher = Pusher;
   wsPort: 6001,
   forceTLS: false,
   disableStats: true
-});
+}); */
 
 const app = new App({
   target: document.getElementById('app')
